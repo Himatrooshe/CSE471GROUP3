@@ -34,7 +34,7 @@ function Landing() {
     return (
 <>
 
-<header className="flex flex-row justify-between px-5 py-6 gap-2 bg-gray-900 text-white ">
+<header className="flex flex-row justify-between px-5 py-6 gap-2 bg-gray-900 opacity-80 text-white fixed w-[96rem] ">
 
     <button className="text-bold font-[Gorestka] text-bold hover:underline">
         Hi Anime
@@ -42,6 +42,12 @@ function Landing() {
     <button className="text-bold font-[Gorestka] text-bold hover:underline">
        Home
     </button>
+    <input
+          type="text"
+          placeholder="Search..."
+        
+          className="p-2 rounded-md bg-gray-700 text-white focus:outline-none focus:bg-gray-600"
+        />
     <button className="text-bold font-[Gorestka] text-bold hover:underline">
         Playlist
     </button>

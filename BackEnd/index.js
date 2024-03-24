@@ -7,7 +7,7 @@ const routes = require('./routes/test');
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/yourdbname', {
+mongoose.connect('mongodb+srv://himatrooshe01:mynamewasoshe01@cluster0.83lzwcp.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
